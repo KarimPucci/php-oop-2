@@ -1,13 +1,15 @@
 <?php
-class Category {
+
+
+class Category
+{
+
     public $name;
+    public $icon;
 
-    /*
-    @param String $_name
-    */
-
-    public function __construct($_name)
+    public function __construct(String $_name, String $_icon)
     {
         $this->name = $_name;
+        $this->icon = $_icon;
     }
 }
